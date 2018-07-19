@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script type="text/javascript" src="jquery-1.8.3.js"></script>
+<script type="text/javascript">
+
+
+$(function(){
+
+console.log("外层调用中···");
+console.log(window.name);
+//alert(document.getElementById("myframe").contentWindow.document);
+//window.onload=function(){}
+
+
+
+})
+
+</script>
+
+ </head>
+ <body>
+<iframe id="myframe" src="http://localhost:8083/quality-admin" width="2000px" height="1000px"></iframe>
+ </body>
+</html>
